@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // create an Intent object
                 Intent i = new Intent(MainActivity.this,NextActivity.class);
-                
+
                 //for passing values via Intent
                 i.putExtra("key",msg);
 
